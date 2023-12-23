@@ -1,4 +1,4 @@
-let plansData = [
+plansData: [
     { name: "ML-001-001", originalName: "Benedetto", bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, stories: 2, garageSize: 3, squareFootage: 4338, price: 2169 },
     { name: "ML-002-001", originalName: "Hise", bedrooms: 5, fullBathrooms: 6, halfBathrooms: 2, stories: 2, garageSize: 3, squareFootage: 5264, price: 2632 },
     { name: "ML-003-001", originalName: "Delgado", bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, stories: 2, garageSize: 2, squareFootage: 2329, price: 1165 },
