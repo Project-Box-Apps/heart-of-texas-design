@@ -20,3 +20,15 @@ let plans = [
     { name: "MA-009-001", originalName: "Gravett", bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, stories: 1, garageSize: 3, squareFootage: 2457, price: 1229 },
     { name: "MA-010-001", originalName: "Sudduth", bedrooms: 3, fullBathrooms: 2, halfBathrooms: 0, stories: 1, garageSize: 0, squareFootage: 1705, price: 853 },
 ];
+
+// Check if exports is defined (commonJS-like environments)
+if (typeof exports !== 'undefined') {
+    // Export plans for commonJS-like environments
+    exports.plans = plans;
+}
+
+// Check if module is defined (ES6 module environments)
+if (typeof module !== 'undefined' && module.exports) {
+    // Export plans for ES6 module environments
+    module.exports = plans;
+}
