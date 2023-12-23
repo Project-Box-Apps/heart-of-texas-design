@@ -21,4 +21,4 @@ let plans = [
     { name: "MA-010-001", originalName: "Sudduth", bedrooms: 3, fullBathrooms: 2, halfBathrooms: 0, stories: 1, garageSize: 0, squareFootage: 1705, price: 853 },
 ];
 
-export { plans };
+module.exports = plans;
