@@ -1,5 +1,4 @@
-{
-  plansData: [
+const plansData = [
     { name: "ML-001-001", originalName: "Benedetto", bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, stories: 2, garageSize: 3, squareFootage: 4338, price: 2169 },
     { name: "ML-002-001", originalName: "Hise", bedrooms: 5, fullBathrooms: 6, halfBathrooms: 2, stories: 2, garageSize: 3, squareFootage: 5264, price: 2632 },
     { name: "ML-003-001", originalName: "Delgado", bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, stories: 2, garageSize: 2, squareFootage: 2329, price: 1165 },
@@ -20,5 +19,4 @@
     { name: "MA-008-001", originalName: "Sullivan", bedrooms: 2, fullBathrooms: 2, halfBathrooms: 0, stories: 1, garageSize: 0, squareFootage: 1684, price: 842 },
     { name: "MA-009-001", originalName: "Gravett", bedrooms: 4, fullBathrooms: 3, halfBathrooms: 1, stories: 1, garageSize: 3, squareFootage: 2457, price: 1229 },
     { name: "MA-010-001", originalName: "Sudduth", bedrooms: 3, fullBathrooms: 2, halfBathrooms: 0, stories: 1, garageSize: 0, squareFootage: 1705, price: 853 },
-  ]
-}
+];
